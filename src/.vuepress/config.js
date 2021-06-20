@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'FuncAI',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -21,6 +21,7 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
 
+
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *
@@ -34,26 +35,22 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Blog',
+        link: '/blog/',
       },
       {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'GitHub',
+        link: 'https://github.com/funcai/funcai-php'
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/blog/': [
         {
-          title: 'Guide',
+          title: 'Blog',
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'why-do-i-need-machine-learning',
           ]
         }
       ],

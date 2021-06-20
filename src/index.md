@@ -1,15 +1,11 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: 
-actionText: Quick Start →
-actionLink: /guide/
+tagline: Getting the power of machine learning into your hands 
+actionText: Read the blog →
+actionLink: /blog/
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by  with ❤️
+- title: Easy to use machine learning applications
+- title: Powered by TensorFlow
+- title: Open Source
+footer: Made by FuncAI with ❤️
 ---
