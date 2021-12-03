@@ -50,6 +50,7 @@ module.exports = {
           collapsable: false,
           children: [
             '',
+            'using-machine-learning-in-php',
             'why-do-i-need-machine-learning',
           ]
         }
